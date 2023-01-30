@@ -1,18 +1,21 @@
-#title {
-    background-color: #ff4c68;
-    color: white;
-}
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
+
+h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
-    border-width: 2px;
 }
 h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     line-height: 1.5;
 }
+@media (max-width: 1000px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+h3 {
+    font-size: 1.5rem;
+}
+
+
 .container-fluid {
     padding: 3% 15% 7%;
 }
@@ -34,6 +37,19 @@ h2 {
     margin: 5% 3% 5% 0;
 
 }
+/* title */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+ 
+.first-imp {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    border-width: 2px;
+} 
+
 .title-image {
     transform: rotate(25deg);
     width: 60%;
@@ -47,10 +63,6 @@ h2 {
     background-color: white;
     position: relative;
     z-index: 1;
-}
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
 }
 .col-lg-4 {
     text-align: center;
@@ -108,9 +120,15 @@ h3 {
 .carousel-item {
     padding: 7% 15%;
 }
+/* pricing */
+
 #pricing {
     text-align: center;
     padding: 100px;
+}
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
 #p-pricing {
     padding: 3% 2%;
@@ -130,3 +148,37 @@ h3 {
     }
    
 }
+/* <!-- Call to Action --> */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+}
+.bottom-h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.bottom-btn {
+    margin: 3.5% 2% 1%;
+}
+/* footer */
+
+#footer {
+    text-align: center;
+    padding-bottom: 8%;
+}
+.footer-icon {
+    margin: 5% 0.5% 2%;
+}
+@media (max-width: 1000px) {
+    .bottom-h3 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
