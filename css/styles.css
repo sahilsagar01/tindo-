@@ -1,177 +1,183 @@
 
 body {
-    text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
-h1, h2, h3, h4 {
-    font-family: 'Montserrat', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 }
-h2 {
-    font-size: 3rem;
-    line-height: 1.5;
+
+p {
+  color: #8f8f8f;
 }
-@media (max-width: 1000px) {
-    h2 {
-        font-size: 1rem;
-    }
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
 }
-h3 {
-    font-size: 1.5rem;
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
 }
-.container-fluid {
-    padding: 3% 15% 7%;
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
 }
-/* sections */
+
+/* Sections */
+
 .colored-section {
-    background-color: #ff4c68;
-    color: white;
+  background-color: #ff4c68;
+  color: #fff;
 }
+
 .white-section {
-    background-color: white;
+  background-color: #fff;
 }
-/* navigation bar */
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
 
 .navbar-brand {
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
-    font-size: 2.5rem;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-.navbar {
-    padding: 0rem 0rem 4.5rem;
+
+.nav-item {
+  padding: 0 18px;
 }
-/* navigation bar */
 
-
-/* downlode-btn */
-.downlode-button {
-    margin: 5% 3% 5% 0;
-
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
 }
-/* title */
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
 
 #title {
-    text-align: left;
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
 }
- 
-.first-imp {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    border-width: 2px;
-} 
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
 
 .title-image {
-    transform: rotate(25deg);
-    width: 60%;
-    position: relative;
-    left: 3.5rem;
-    position: relative;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
-/* facility */
-#features {
-    padding: 7% 15%;
-    position: relative;
-    z-index: 1;
-}
-.col-lg-4 {
-    text-align: center;
-    line-height: 1.5rem;
-}
-.features- {
-    color: #8f8f8f;
-    width: 50%;
-    margin: auto;
-}
-.fa-circle-check {
-    padding-bottom: 1rem;
-    font-size: 3rem;
-    color: #ef8172;
-}
-.fa-circle-check:hover {
-    color: #ff4c68;
-}
-.fa-bullseye {
-    padding-bottom: 1rem;
-    font-size: 3rem;
-    color: #ef8172;
-}
-.fa-bullseye:hover {
-    color: #ff4c68;
-}
-.fa-heart {
-    padding-bottom: 1rem;
-    font-size: 3rem;
-    color: #ef8172;
-}
-.fa-heart:hover {
-    color: #ff4c68;
-}
-/* testimonials */
 
-.testimonial-img {
-    border-radius: 100%;
-    width: 10%;
-    margin: 20px;
+/* Features Section */
+
+#features {
+  position: relative;
 }
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+  font-size: 5rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-family: 'Unbounded', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
 #press {
-    padding: 3%;
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
+
 .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+  width: 15%;
+  margin: 20px 20px 50px;
 }
-.carousel-item {
-    padding: 7% 15%;
-}
-/* pricing */
+
+/* Pricing Section */
 
 #pricing {
-    padding: 100px;
-}
-.pricing-text {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-#p-pricing {
-    padding: 3% 2%;
-}
-@media (max-width: 1000px) {
-
-    #title {
-        text-align: center;
-    }
-    .title-image {
-        position: static;
-        transform: rotate(0deg);
-        margin: auto;
-    }
-    h1 {
-        font-size: 1.5rem;
-    }
-}
-/* <!-- Call to Action --> */
-
-.bottom-h3 {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-.bottom-btn {
-    margin: 3.5% 2% 1%;
-}
-/* footer */
-
-#footer {
-    padding-bottom: 8%;
-}
-.footer-icon {
-    margin: 5% 0.5% 2%;
-}
-@media (max-width: 1000px) {
-    .bottom-h3 {
-        font-size: 1rem;
-    }
+  padding: 100px;
 }
 
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
 
 
+/* Footer Section */
 
 
+.social-icon {
+  margin: 20px 10px;
+}
 
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
